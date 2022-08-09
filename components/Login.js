@@ -44,12 +44,12 @@ let token= localStorage.getItem('token');
             <h2>formulario</h2>
             <form onSubmit={submitHandler}>
                 <div className="mb-3">
-                    <label for="exampleInputEmail1" className="form-label">Email address</label>
+                    <label for="exampleInputEmail1" className="form-label" >Email address "challenge@alkemy.org"</label>
                     <input type="email" name="email"className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
-                        
+                    
                 </div>
                 <div className="mb-3">
-                    <label for="exampleInputPassword1" className="form-label">Password</label>
+                    <label for="exampleInputPassword1" className="form-label" placeholder="react">Password "react"</label>
                     <input type="password" name ='password'className="form-control" id="exampleInputPassword1"/>
                 </div>
                 
